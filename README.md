@@ -62,10 +62,10 @@
 
 4. Comenzaremo a trabajar las rutas
 
-    41. Generamos desde la consola un modulo aparte para las rutas
+    1. Generamos desde la consola un modulo aparte para las rutas
     > ng g m auth
-    42. Este fichero se devio haber creado en la ruta src/app/auth/auth.module.ts, en esa misma ruta crearemos un nuevo archivo que se llame auth-routing.module.ts
-    43. Copiamos lo que teniamos en nuestro archivo general de rutas (app-routing.module.ts) y lo pegamos en el archivo que acabamos de crear
+    2. Este fichero se devio haber creado en la ruta src/app/auth/auth.module.ts, en esa misma ruta crearemos un nuevo archivo que se llame auth-routing.module.ts
+    3. Copiamos lo que teniamos en nuestro archivo general de rutas (app-routing.module.ts) y lo pegamos en el archivo que acabamos de crear
     ```typescript
         import { NgModule } from '@angular/core';
         import { Routes, RouterModule } from '@angular/router';
@@ -78,7 +78,7 @@
         })
         export class AppRoutingModule { }
     ```
-    44. Procedemos a editar nuestro archivo
+    4. Procedemos a editar nuestro archivo
      ```typescript 
         import { NgModule } from '@angular/core';
         import { Routes, RouterModule } from '@angular/router';
@@ -100,7 +100,7 @@
         // Modificamos al nombre de la clase
         export class AuthRoutingModule { }
     ```
-    45. Procedemos a editar nuestro auth.module.ts
+    5. Procedemos a editar nuestro auth.module.ts
     ```typescript 
         import { NgModule } from '@angular/core';
         import { CommonModule } from '@angular/common';
@@ -130,7 +130,7 @@
         })
         export class AuthModule { }
     ```
-    46. Editamos nuestro archivo app-routing.module.ts
+    6. Editamos nuestro archivo app-routing.module.ts
     ```typescript
     import { NgModule } from '@angular/core';
     import { Routes, RouterModule } from '@angular/router';

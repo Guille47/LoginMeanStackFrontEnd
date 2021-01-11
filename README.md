@@ -61,6 +61,7 @@
 ```
 
 4. Comenzaremo a trabajar las rutas
+
     41. Generamos desde la consola un modulo aparte para las rutas
     > ng g m auth
     42. Este fichero se devio haber creado en la ruta src/app/auth/auth.module.ts, en esa misma ruta crearemos un nuevo archivo que se llame auth-routing.module.ts

@@ -63,7 +63,7 @@
 4. Comenzaremo a trabajar las rutas
 
     1. Generamos desde la consola un modulo aparte para las rutas
-    > ng g m auth
+        > ng g m auth
     2. Este fichero se devio haber creado en la ruta src/app/auth/auth.module.ts, en esa misma ruta crearemos un nuevo archivo que se llame auth-routing.module.ts
     3. Copiamos lo que teniamos en nuestro archivo general de rutas (app-routing.module.ts) y lo pegamos en el archivo que acabamos de crear
     ```typescript
@@ -223,8 +223,9 @@ export class AuthService {
 }
 ```
 
-# Modificamos el componente
+# Modificamos los componentes
 
+## Componente login
 1. Abrimos el archivo login.component.html
 
 ```html
